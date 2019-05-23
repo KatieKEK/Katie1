@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hi there!"    
+    return "Bananas are great for small children!"    
     
 if __name__ == '__main__':
     app.run(use_reloader=True)
